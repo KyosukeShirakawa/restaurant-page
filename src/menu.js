@@ -13,27 +13,27 @@ export function menuLoad(){
     },
     {
       name: "Chocolate banana& caramel",
-      imgUrl: "../images/Chocolate-banana&-caramel"
+      imgUrl: "../images/Chocolate-banana&-caramel.jpeg"
     },
     {
       name: "Fruits toast",
-      imgUrl: "../images/Fruits-toast"
+      imgUrl: "../images/Fruits-toast.jpeg"
     },
     {
       name: "Strawberry toast",
-      imgUrl: "../images/Strawberry-toast"
+      imgUrl: "../images/Strawberry-toast.jpeg"
     },
     {
       name: "Smoked salmon&cream cheese",
-      imgUrl: "../images/Smoked-salmon&cream-cheese"
+      imgUrl: "../images/Smoked-salmon&cream-cheese.jpeg"
     },
     {
       name: "Poached egg&hamburger",
-      imgUrl: "../images/Poached-egg&hamburger"
+      imgUrl: "../images/Poached-egg&hamburger.jpeg"
     },
     {
       name: "Cheese toast",
-      imgUrl: "../images/Cheese-toast"
+      imgUrl: "../images/Cheese-toast.jpeg"
     }
 
   ]
@@ -42,6 +42,7 @@ export function menuLoad(){
   menu.id = "menu";
 
   menus.forEach((m) => {
+
     let card = document.createElement('div');
     let h3 = document.createElement('h3');
     let pic = document.createElement('img');
