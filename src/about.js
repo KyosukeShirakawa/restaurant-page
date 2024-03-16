@@ -1,13 +1,16 @@
 export function aboutLoad(){
 
+  
+
   const content = document.querySelector('#content');
+
+  content.innerHTML = '';
+  
   const about = document.createElement('div');
   const h1 = document.createElement('h1');
   const p = document.createElement('p');
   const img = document.createElement('img');
 
-
-  content.innerHTML = "";
   about.id = "about";
   h1.textContent = "About";
   p.textContent = "Cafeteria Koto is a crepe, shake, and coffee store, located near the Kinkaku-ji (Golden Pavilion)";
