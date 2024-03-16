@@ -1,0 +1,24 @@
+body {
+
+}
+
+#content {
+  margin: 0;
+  background: url(../images/background.jpeg);
+  overflow: hidden;
+  padding: 0;
+  height: 300px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+#content img {
+  background-color: transparent;
+}
+
+#content h1{
+
+}

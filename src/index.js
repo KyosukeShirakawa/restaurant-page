@@ -1,1 +1,2 @@
-alert("hey")
+import './style.css';
+
