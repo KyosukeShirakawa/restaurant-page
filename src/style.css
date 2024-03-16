@@ -24,21 +24,24 @@ header {
 }
 
 #content {
-  margin: 0;
   background: url(../images/background.jpeg);
   overflow: hidden;
-  padding: 0;
-  height: 300px;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* #content {
+
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
-}
-#content img {
+} */
+/* #content img {
   width: 200px;
-}
+} */
 
 #content h1{
 
@@ -52,6 +55,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 60%;
+  align-self: center;
 }
 
 #about p {
