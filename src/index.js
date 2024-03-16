@@ -7,7 +7,7 @@ import { menuLoad } from './menu.js';
 const aboutBtn = document.getElementById('about-tab');
 const menuBtn = document.getElementById('menu-tab');
 aboutBtn.addEventListener('click', aboutLoad);
-menuBtn.addEventListener('click', menuLoad)
+menuBtn.addEventListener('click', menuLoad);
 
 
 
