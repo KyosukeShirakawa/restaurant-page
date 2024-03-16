@@ -16,7 +16,7 @@ body {
   padding: 50px;
 }
 #content img {
-  background-color: transparent;
+  width: 200px;
 }
 
 #content h1{
