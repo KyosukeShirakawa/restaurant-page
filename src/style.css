@@ -49,6 +49,8 @@ header {
 
 
 #about {
+  color: rgb(161, 101, 101);
+
   margin: 100px;
   padding: 30px;
   background-color: white;
@@ -83,7 +85,6 @@ header {
 .card {
   border-radius: 20px;
   background-color: white;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -105,4 +106,45 @@ header {
   margin-bottom: 0;
   
 }
+
+#home {
+  background-color: white;
+  padding: 100px;
+  border-radius: 20px;
+  color: rgb(161, 101, 101);
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(161, 101, 101);
+}
+
+.home-content {
+  padding: 30px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#contact {
+
+
+
+
+}
+
+#location {
+
+}
+
+
 
