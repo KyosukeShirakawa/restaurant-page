@@ -1,11 +1,10 @@
 import './style.css';
+import {initialLoad} from "./initial.js";
 
 
-const content = document.querySelector('#content');
+initialLoad();
 
-const logo = document.createElement('img');
 
-logo.src = "../images/logo.png"
 
 
 
